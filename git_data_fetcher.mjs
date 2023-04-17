@@ -235,7 +235,7 @@ fetch(baseUrl, {
     console.log("Fetching the Contributed Organization Data.\n");
     fs.writeFile(
       "./src/shared/opensource/organizations.json",
-      JSON.stringify(newOrgs),
+      JSON.stringify(newOrgs), 
       function (err) {
         if (err) {
           console.log(err);
